@@ -1,7 +1,8 @@
 let idade = 17
 let condicaoHumana = true
 let aninversario = 'setembro'
-
+let nome = 'ricardo'
+let sobrenome = 'valente'
 //condição 1
 if (idade > 18){
     console.log("você é maior de idade");
@@ -23,4 +24,19 @@ if(aninversario == 'janeiro' || aninversario == 'dezembro'){
     console.log("o seu aniversário é em janeiro ou dezembro");
 }else{
     console.log("o seu aniversário não é em janeiro ou dezembro");
+}
+
+
+//condição 4
+if(nome[0] == 'r'){
+    console.log("o seu nome começa com a letra R")
+}else(
+    console.log("o seu nome não começa com a letra R")
+)
+
+//condição 5
+if(sobrenome.length > 6){
+    console.log("o seu sobrenome tem mais de 6 letras");
+}else{
+    console.log("o seu sobrenome não tem 6 letras");
 }
